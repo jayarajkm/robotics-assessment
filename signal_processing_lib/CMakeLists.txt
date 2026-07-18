@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.22)
+
+project(signal_processing_lib LANGUAGES CXX)
+
+add_library(signal_processing_lib INTERFACE)
+target_include_directories(signal_processing_lib INTERFACE include)
+target_compile_features(signal_processing_lib INTERFACE cxx_std_20)
