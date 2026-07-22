@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsignal_processing.a CMakeFiles/signal_processing.dir/src/csv_reader.cpp.o
+/usr/bin/ranlib libsignal_processing.a
